@@ -68,7 +68,7 @@ app.delete('/api/candidate/:id', (req, res) => {
             });
         } else {
             res.json({
-                message: 'deleted',
+                message: 'successfully deleted',
                 changes: result.affectedRows,
                 id: req.params.id
             });
